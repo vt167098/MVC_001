@@ -1,0 +1,90 @@
+﻿@model WebApp003.Models.prgm010
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>prgm010</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.prg_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.prg_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.exec_file)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.exec_file)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.menu_prg)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.menu_prg)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.remark)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.remark)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.create_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.create_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.create_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.create_date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.update_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.update_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.update_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.update_date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.log_code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.log_code)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.prg_no }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
